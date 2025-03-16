@@ -23,7 +23,7 @@ seam_carving_implementation/    # Root of the repository
 │
 │── src/                        # Source code for seam carving
 │   │── seam_carving_before.py  # Unoptimized version (slow)
-│   │── seam_carving_after.py   # Optimized version (fast)
+│   │── seam_carving_optimized.py   # Optimized version (fast)
 │
 │── benchmarking/               # Performance comparison logs
 │   │── benchmark_results.md    # Detailed benchmark results
@@ -85,7 +85,7 @@ For a **detailed benchmark report**, check 👉 [`benchmark_results.md`](benchma
 
 4. **Run the optimized version**  
    ```bash
-   python seam_carving_after.py
+   python seam_carving_optimized.py
    ```
 
 ---
